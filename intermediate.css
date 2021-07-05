@@ -1,0 +1,56 @@
+#back{
+    background-color: rgba(223,237,238,0.9)
+}
+.contact{
+float: right;
+position: relative;
+padding: 1px 8px;
+color: #000;
+}
+.contact h3{
+z-index: 1;
+color:#000;
+margin: 0;
+font-size: 130%;
+    
+    
+}
+#border{
+    border-left: solid 2px #000;
+}
+.contact h4{
+font-size: 120%;
+margin-top: -0px;
+margin-bottom: -4px;
+    
+}
+.button1:hover{
+  color: rgb(220,220,220);
+  background-color:rgb(105, 105, 105);
+   /*margin-bottom: 10px;*/
+}
+.button1{
+  background-color: rgb(236, 113, 40);
+  color: #ffffff;
+  padding: 15px 32px;
+  border: none;
+  border-radius:8px;
+  margin-left: 43%;
+  text-align:center;
+  font-weight:bold;
+  text-transform:uppercase;
+  font-size:15px;
+    margin-bottom: 1%;
+}
+.box-1 h1{
+  float:center;
+  font-size:4em;
+  font-family: verdana;
+  font-weight: normal;
+  margin-top: 50px;
+text-align: center;
+    color: rgba(190,0,0,1);
+    
+        
+    
+}

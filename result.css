@@ -1,0 +1,140 @@
+body{
+  background-color: rgb(245,245,245);
+  color: rgb(22,11,59)
+}
+
+
+
+.box-2{
+  padding: 5px;
+  border: solid;
+  margin-left: 20%;
+  margin-right: 20%;
+  border-width: 5px;
+  border-color: rgb(236, 113, 40);
+  font-family: verdana;
+  border-radius: 15px;
+    /*overflow-x: scroll;*/
+    /*overflow-y: scroll;*/
+}
+
+.box-2 ul{
+  list-style: square;
+  font-size: 1.2em;
+  padding-right: 50%
+}
+
+.box-2 li:nth-child(3){
+  background: red;
+}
+
+.box-2 li:nth-child(5){
+  background: red;
+}
+.box-2 li:nth-child(7){
+  background: red;
+}
+.box-2 li:nth-child(9){
+  background: red;
+}
+
+.box-2 li:nth-child(10){
+  background: red;
+}
+
+
+.button1{
+  background-color: rgb(236, 113, 40);
+  color: #ffffff;
+  padding: 15px 32px;
+  border: none;
+  border-radius:8px;
+  position: static;
+   text-align:center;
+  margin-left: 43%;
+
+  font-size:15px;
+  font-weight:bold;
+  text-transform:uppercase;
+    margin-bottom: 1%;
+    margin-top: 1%;
+
+}
+
+.button2{
+  background-color: rgb(236, 113, 40);
+  color: #ffffff;
+  padding: 15px 35px;
+  border: none;
+  border-radius:8px;
+  position: static;
+
+  text-align:center;
+  font-weight:bold;
+  text-transform:uppercase;
+  font-size:15px;
+    align-items: center;
+    margin-right: 27%
+
+}
+
+.button1:hover{
+  color: rgb(220,220,220);
+  background-color:rgb(105, 105, 105);
+   /*margin-bottom: 10px;*/
+}
+
+.button2:hover{
+  color: rgb(220,220,220);
+  background-color:rgb(105, 105, 105);
+}
+
+.p-box h4{
+  position: absolute;
+  bottom: 55%;
+  right: 25%;
+}
+.contact{
+float: right;
+position: relative;
+padding: 1px 8px;
+color: #000;
+}
+.contact h3{
+z-index: 1;
+color:#000;
+margin: 0;
+font-size: 130%;
+
+
+}
+#border{
+    border-left: solid 2px #000;
+}
+.contact h4{
+font-size: 120%;
+margin-top: -0px;
+margin-bottom: -4px;
+
+}
+#back{
+    background-color: rgba(223,237,238,0.9)
+}
+
+.name-box{
+  margin-left: 20.5%;
+  align-items:center;
+  text-align-last: left;
+  font-weight:bold;
+  text-transform:uppercase;
+  font-size:24px;
+  font-family:Cambria
+}
+
+.dep-box{
+  margin-left: 20.5%;
+  text-align-last: left;
+  font-weight:bold;
+  font-size:30px;
+  font-family:Calibri
+}

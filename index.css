@@ -1,0 +1,89 @@
+{
+box-sizing: border-box;
+
+
+}
+body{
+margin: 0;
+font-size: 1rem;
+line-height: 1;
+color: #000;
+overflow-x: hidden;
+}
+.v-header{
+height:100vh;
+display: flex;
+align-items: center;
+color: brown;
+}
+
+.container{
+max-height: 960px;
+padding-left: 1rem;
+padding-right: 1rem;
+margin: auto;
+text-align: center;
+
+}
+
+
+
+#fullscreen-video-wrap{
+min-width: 100%;
+min-height: 100%;
+position: fixed;
+bottom: 0;
+left: 0;
+}
+
+.header-overlay{
+height: 100%;
+width: 100%;
+position: fixed;
+top: 0;
+left: 0;
+background: rgba(255,165,0,0.5);
+z-index: 1;
+opacity: 0.6;
+}
+
+.header-content {
+position: absolute;
+font-size: 210%;
+margin-bottom: 0;
+display: inline;
+z-index:2;
+color: rgb(38,33,87);
+}
+.contact{
+float: left;
+position: relative;
+padding: 3em 8px;
+color: #000;
+}
+.contact h3{
+z-index: 1;
+color:#000;
+margin: 0;
+font-size: 130%;
+
+
+}
+#border{
+    border-left: solid 2px #000;
+}
+.contact h4{
+font-size: 120%;
+margin-top: -0px;
+margin-bottom: -4px;
+
+}
+
+.insert{
+z-index: 1;
+position: fixed;
+text-align: center;
+transform: translateY(570%);
+top: 1em;
+margin-left: 43%
+}
